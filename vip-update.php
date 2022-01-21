@@ -1,8 +1,8 @@
 <?php
 // config
-$password = 'c1-v151';
-$repoURL = 'file:///user/local/lib/svn/vip/';
-$workURL = '/var/www/vip';
+$password = '<updatepasswd>';
+$repoURL = '<yoursvnrepo>';
+$workURL = '<varwwwprojectpath>';
 
 // init
 $log = (string) '';
