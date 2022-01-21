@@ -8,8 +8,8 @@
  * @version 1.0
  */
 
-$databaseConnection = @mysql_connect('localhost', 'cl_vis', 'c1-v151');
-$databaseSelection = @mysql_select_db('cl_vis');
+$databaseConnection = @mysql_connect('localhost', '<database-user>', '<database-password>');
+$databaseSelection = @mysql_select_db('<prefix_database>');
 
 if(!$databaseConnection or !$databaseSelection){
 	echo '<h2>Database connection error</h2><p>Sorry, but we have no database connection at this moment. Please try again later.</p>';
